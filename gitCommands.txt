@@ -31,8 +31,11 @@ $git status
 $pwd
 
 $rm <file>
-$git rm file
+$git rm file			//工作区删除后使用
 $git commit -m ""
+
+$git rm -f <file>		//工作区和暂存区一起删除
+$git rm --cached <file>	//仅删除暂存区
 
 $ssh-keygen -t rsa -C "email@example.com"
 $git remote add origin <ssh address>
