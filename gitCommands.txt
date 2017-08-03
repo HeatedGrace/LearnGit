@@ -24,6 +24,7 @@ $git log --pretty=oneline
 $git log --pretty=oneline --abbrev-commit
 $git log --graph
 
+$git checkout <commit_id> <file>	//针对某一文件恢复 
 $git reset --hard HEAD^
 $git reset --hard <commit id>
 
