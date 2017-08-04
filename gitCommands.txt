@@ -30,6 +30,7 @@ $git reset --hard <commit id>
 
 $git status
 $pwd
+$cat <file>
 
 $rm <file>
 $git rm file			//工作区删除后使用
@@ -40,6 +41,7 @@ $git rm --cached <file>	//仅删除暂存区
 
 $ssh-keygen -t rsa -C "email@example.com"
 $git remote add origin <ssh address>
+$git pull --rebase origin master
 $git push -u origin master
 $git push origin master
 
@@ -53,6 +55,6 @@ $git checkout master
 $git merge <branch name>
 $git branch -d <branch name>
 
-
+$git merge --no-ff -m "" <branch name>
 
 
