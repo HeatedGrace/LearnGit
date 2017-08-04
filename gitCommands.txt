@@ -66,4 +66,10 @@ $git stash apply stash@{num}
 $git remote
 $git remote -v
 
+$git checkout -b <branch name> origin/branch-name
+$git branch --set-upstream branch-name origin/branch-name
 
+$git fetch
+$git pull
+
+$git push origin branch-name
