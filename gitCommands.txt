@@ -57,4 +57,10 @@ $git branch -d <branch name>
 
 $git merge --no-ff -m "" <branch name>
 
+$git stash
+$git stash list
+$git stash pop
+$git stash apply
+$git stash apply stash@{num}
+
 
