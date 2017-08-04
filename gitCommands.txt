@@ -63,4 +63,7 @@ $git stash pop
 $git stash apply
 $git stash apply stash@{num}
 
+$git remote
+$git remote -v
+
 
