@@ -1,0 +1,58 @@
+git common commands:
+
+
+$cd <file dir>
+$mkdir <name>
+
+$git init
+$git add <file>
+$git commit -m ""
+$git commit -a -m ""
+
+$git diff
+$git diff --cashed
+$git diff --staged
+$git diff master
+
+$git checkout -- <file>
+$git reset HEAD <file>
+$git commit -m "" --amend//撤销上一次提交，把现在的暂存区内容提交，替代上一次提交
+
+$git log
+$git reflog
+$git log --pretty=oneline
+$git log --pretty=oneline --abbrev-commit
+$git log --graph
+
+$git checkout <commit_id> <file>	//针对某一文件恢复 
+$git reset --hard HEAD^
+$git reset --hard <commit id>
+
+$git status
+$pwd
+
+$rm <file>
+$git rm file			//工作区删除后使用
+$git commit -m ""
+
+$git rm -f <file>		//工作区和暂存区一起删除
+$git rm --cached <file>	//仅删除暂存区
+
+$ssh-keygen -t rsa -C "email@example.com"
+$git remote add origin <ssh address>
+$git push -u origin master
+$git push origin master
+
+$git clone <http address/ssh address>
+
+$git branch <name>
+$git checkout <branch name>
+$git checkout -b <name>
+
+$git checkout master
+$git merge <branch name>
+$git branch -d <branch name>
+
+
+
+
