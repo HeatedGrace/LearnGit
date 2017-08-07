@@ -73,3 +73,12 @@ $git fetch
 $git pull
 
 $git push origin branch-name
+
+$git tag
+$git tag <tag name>
+$git tag <tag name> commit_id
+$git show <tag name>
+$git tag -d <tag name>
+
+
+
