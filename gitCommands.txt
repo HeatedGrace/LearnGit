@@ -78,7 +78,11 @@ $git tag
 $git tag <tag name>
 $git tag <tag name> commit_id
 $git show <tag name>
-$git tag -d <tag name>
 
+$git tag -d <tag name>
+$git tag push origin <tag name>
+$git tag push origin :refs/tags/<tagname>
+
+$git config --global alias.<abbrev> <full string>
 
 
